@@ -335,16 +335,13 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.social-link img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease;
+.social-link i {
+    font-size: 30px; /* Ajusta o tamanho do ícone */
+    color: #ffffff; /* Cor padrão dos ícones */
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.social-link:hover img {
-    transform: scale(2); /* Aumenta o ícone ao passar o mouse */
-}
-
-.social-link:hover {
-    color: #ffffff; /* Muda a cor ao passar o mouse */
+.social-link:hover i {
+    transform: scale(1.2); /* Aumenta o ícone ao passar o mouse */
+    color: #3771d4; /* Cor quando passar o mouse (pode ser qualquer cor) */
 }
